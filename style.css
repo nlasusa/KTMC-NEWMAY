@@ -11,8 +11,8 @@
 #header-title {
   position: absolute;
   width: 45vw;
-  margin-top: 2%;
-  margin-left: 5%;
+  margin-top: 40%;
+  margin-left: 6.5%;
 }
 @media only screen and (max-width: 768px) {
 #video-bg {
