@@ -74,6 +74,18 @@
     }
     }
 
+    @media only screen and (max-width: 430px) {
+      .trailblazers-line1 {
+        font-size: 35px;
+        margin-left: 10%;
+      }
+    
+      .trailblazers-line2 {
+        font-size: 35px; 
+        margin-left: 15%;
+      }
+      }
+
     @media only screen and (min-width: 2000px) {
       .trailblazers-line1 {
         font-size: 120px;
