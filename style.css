@@ -59,7 +59,7 @@ mark {
   margin-left: 25%;
 }
 
-@media only screen and (max-width: 1004px) {
+@media only screen and (max-width: 1035px) {
   .trailblazers-line1 {
   font-size: 60px;
   margin-left: 20%;
@@ -71,7 +71,7 @@ margin-left: 25%;
 }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   .trailblazers-line1 {
   font-size: 40px;
   margin-left: 13%;
