@@ -109,26 +109,3 @@ margin-left: 25%;
 }
   /* // end of video and header //  */
 
-  /* // Nav Bar //  */
-/* .Navbar {
-  display: flex; 
-  background-color: rgb(10, 10, 10);
-  padding: 1em;
-  font: 15px Raleway;
-  color: rgb(0, 0, 0);
-}
-
-.Navbar__Items--center {
-  display: flex;
-  padding: 15px; 
-  justify-content: space-between;
-
-} */
-
-#logo-main {
-  margin-left: 1em; 
-  width: 300px;
-  border-radius: 0; 
-  position: absolute; 
-  z-index: 3; 
-}
