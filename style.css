@@ -86,7 +86,7 @@
       }
       }
 
-    @media only screen and (min-width: 2000px) {
+    @media only screen and (max-width: 2000px) {
       .trailblazers-line1 {
         font-size: 120px;
         margin-left: 30%;
@@ -94,6 +94,7 @@
     
       .trailblazers-line2 {
         font-size: 120px; 
+        margin-top: 22.5%;
         margin-left: 35%;
       }
       }
