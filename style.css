@@ -1,5 +1,4 @@
-
-/* // video and header// */
+/* // nav, header, video // */
 .header-wrapper {
   width: 100%;
   position: relative;
@@ -17,22 +16,6 @@
   margin-top: 40%;
   margin-left: 6.5%;
 }
-@media only screen and (max-width: 768px) {
-#video-bg {
-  display: none;
-}
-#mobile-bg {
-  display: block;
-  width: 100%;
-}
-#header-title {
-  position: absolute;
-  width:65vw;
-  margin-top: 35%;
-  margin-left: 6.5%;
-}
-}
-
 .trailblazers-line1 {
   font-family: 'Playfair Display', serif;
   font-size: 90px; 
@@ -55,31 +38,135 @@
   margin-left: 25%;
   z-index: 3; 
 }
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: 2;
+  background-color: rgba(17, 17, 17, 0.5); /*dim the background*/
+  opacity: 0.95;  
+}
+
+#logo-main {
+  margin-top: .4em; 
+  margin-left: 1em; 
+  width: 315px;
+  border-radius: 0; 
+  z-index: 3; 
+  position: absolute;  
+}
+.navigation{
+  padding-top:50px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:3;
+}
+
+.navbar-right{
+  float:right;
+  padding-right:20%;
+  word-spacing: 22px; 
+  letter-spacing: .1em; 
+  background-color: black; 
+  padding: 28px; 
+  opacity: 0.75; 
+
+}
+.navbar-right a{
+  text-decoration: none;
+  font-size: 15px; 
+  padding:10px;
+  color: #fff;
+  font-family: 'Raleway';
+  font-weight: thin; 
+}
+
+
+.navbar-right a:hover{
+   color: rgb(154, 187, 27); 
+}
+
+.header-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -7px;  
+}
+#video-bg {
+  width: 100%;
+}
+
+#header-title {
+  position: absolute;
+  width: 45vw;
+  margin-top: 40%;
+  margin-left: 6.5%;
+}
+/* // end of nav, header, video */
+
+/* // media queries nav, header, video */
+@media only screen and (max-width: 768px) {
+#video-bg {
+  display: none;
+  }
+#mobile-bg {
+  display: block;
+  width: 100%;
+  }
+#header-title {
+  position: absolute;
+  width:65vw;
+  margin-top: 35%;
+  margin-left: 6.5%;
+  }
+.navbar-right a{
+  color: white;
+  font-size: 7px; 
+  }
+.navbar-right {
+  word-spacing: -15px; 
+  padding: 5px; 
+  letter-spacing: 0.1em; 
+  }
+.navigation{
+  padding-top: 3px;
+  }
+}
 
 @media only screen and (max-width: 1035px) {
-  .trailblazers-line1 {
-  font-size: 60px;
-  margin-left: 20%;
+.trailblazers-line1 {
+font-size: 60px;
+margin-left: 20%;
   }
-
 .trailblazers-line2 {
 font-size: 60px; 
 margin-left: 25%;
-}
+  }
 }
 
 @media only screen and (max-width: 750px) {
   .trailblazers-line1 {
-  font-size: 40px;
-  margin-left: 13%;
+  font-size: 43px;
+  margin-left: 16%;
   }
   
   .trailblazers-line2 {
-  font-size: 40px; 
-  margin-left: 18%;
+  font-size: 43px; 
+  margin-left: 21%;
   }
   }
-
+@media only screen and (max-width: 650px) {
+  .trailblazers-line1 {
+  font-size: 40px;
+  margin-left: 13%;
+  }
+    
+    .trailblazers-line2 {
+    font-size: 40px; 
+    margin-left: 18%;
+    }
+    }
 @media only screen and (max-width: 430px) {
   .trailblazers-line1 {
   font-size: 35px;
@@ -91,7 +178,6 @@ margin-left: 25%;
   margin-left: 15%;
 }
 }
-
 @media only screen and (min-width: 1700px) {
   .trailblazers-line1 {
     font-size: 120px;
@@ -104,24 +190,6 @@ margin-left: 25%;
     margin-left: 31%;
 }
 }
-  .overlay{
-    position: absolute;
-    width: 100%;
-    height: 80%;
-    z-index: 2;
-    background-color: rgba(17, 17, 17, 0.5); /*dim the background*/
-    opacity: 0.95;  
-  }
-
-  #logo-main {
-    margin-top: .4em; 
-    margin-left: 1em; 
-    width: 315px;
-    border-radius: 0; 
-    z-index: 3; 
-    position: absolute;  
-  }
-
   @media only screen and (max-width: 1035px) {
     #logo-main {
       width: 270px; 
@@ -131,6 +199,7 @@ margin-left: 25%;
   @media only screen and (max-width: 750px) {
     #logo-main {
       width: 170px; 
+      margin-left: .5em;
     }
   }
   
@@ -139,7 +208,6 @@ margin-left: 25%;
       width: 160px; 
     }
   }
-  /* // end of video and header  */
+  /* // end of media queries nav, header, video */
 
 
- 
