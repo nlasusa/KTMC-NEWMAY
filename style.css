@@ -251,5 +251,18 @@ margin-left: 25%;
     #logo-main {
       width: 160px; 
     }
+    .navbar-right a{
+      color: white;
+      font-size: 7px; 
+      }
+    .navbar-right {
+      word-spacing: -15px; 
+      padding: 5px; 
+      letter-spacing: 0.1em; 
+      }
+    .navigation {
+      margin-left: 20px; 
+      padding-right: 20px; 
+    }
   }
   /* // end of media queries nav, header, video */
