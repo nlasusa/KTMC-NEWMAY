@@ -1,8 +1,9 @@
-/* // video and header// */
 
+/* // video and header// */
 .header-wrapper {
   width: 100%;
   position: relative;
+  margin-top: -7px;  
 }
 #video-bg {
   width: 100%;
@@ -43,12 +44,6 @@
   margin-left: 19%;
   z-index: 3; 
 }
-
-/* mark {
-  background-color: rgb(20, 20, 20);
-  color: white; 
-  opacity: 0.8; 
-} */
 
 .trailblazers-line2 {
   font-family: 'Playfair Display', serif;
@@ -109,16 +104,12 @@ margin-left: 25%;
     margin-left: 31%;
 }
 }
-  /* // end of video and header //  */
-
   .overlay{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: 80%;
     z-index: 2;
-    background-color: rgba(32, 32, 32, 0.5); /*dim the background*/
+    background-color: rgba(17, 17, 17, 0.5); /*dim the background*/
     opacity: 0.95;  
   }
 
@@ -141,9 +132,14 @@ margin-left: 25%;
     #logo-main {
       width: 170px; 
     }
+  }
   
   @media only screen and (max-width: 430px) {
     #logo-main {
       width: 160px; 
     }
   }
+  /* // end of video and header  */
+
+
+ 
