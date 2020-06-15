@@ -1,3 +1,5 @@
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
 /* // nav, header, video // */
 .header-wrapper {
   width: 100%;
@@ -27,7 +29,6 @@
   margin-left: 19%;
   z-index: 3; 
 }
-
 .trailblazers-line2 {
   font-family: 'Playfair Display', serif;
   font-size: 90px; 
@@ -106,7 +107,6 @@ x
   z-index: 4; 
   padding: 6px; 
 }
-
 ul{
   padding: 0;
   list-style: none;
@@ -142,6 +142,10 @@ ul li ul.dropdown li{
   display: block;
 }
 /* // end of navbar drop down */
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+
+
 
 
 /* //////// ****** /////////////////////////// */
@@ -163,7 +167,6 @@ ul li ul.dropdown li{
   margin-left: 6.5%;
   } 
 }
-
 @media only screen and (max-width: 1035px) {
 .trailblazers-line1 {
 font-size: 60px;
@@ -174,21 +177,18 @@ font-size: 60px;
 margin-left: 23%;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .trailblazers-line1 {
   font-size: 43px;
   margin-left: 20%;
   margin-top: 14%; 
   }
-  
   .trailblazers-line2 {
   font-size: 43px; 
   margin-left: 25%;
   margin-top: 19%;
     }
   }
-
 @media only screen and (max-width: 615px) {
   .trailblazers-line1 {
   font-size: 40px;
@@ -202,7 +202,6 @@ margin-left: 23%;
     margin-top: 30%;
   }
     }
-
 @media only screen and (max-width: 430px) {
   .trailblazers-line1 {
   font-size: 35px;
@@ -248,7 +247,6 @@ margin-left: 23%;
       min-width: 160px; 
   }
 }
-
   @media only screen and (max-width: 750px) {
     #logo-main {
       width: 140px; 
@@ -273,8 +271,7 @@ margin-left: 23%;
     ul li{
       line-height: 9px;
   }
-}
-  
+} 
   @media only screen and (max-width: 430px) {
     #logo-main {
       width: 130px; 
@@ -294,8 +291,16 @@ margin-left: 23%;
       } 
   }
   /* // end of media queries nav, header, video */
+ /* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
 
 
+
+
+
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+/* // arrow */
   i {
     color: white;
     z-index: 4; 
@@ -315,7 +320,6 @@ margin-left: 23%;
     transform-origin: center bottom;
     cursor: pointer; 
   }
-  
   @keyframes bounce {
     from,
     20%,
@@ -348,4 +352,7 @@ margin-left: 23%;
       transform: translate3d(0, -4px, 0);
     }
   }
-  
+  /* // end of arrow */
+  /* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+
