@@ -99,7 +99,7 @@
   margin-left: 6.5%;
 }
 /* // end of nav, header, video */
-
+x
 /* // nav bar drop down */
 .dropdown {
   color: rgb(49, 49, 49); 
@@ -121,7 +121,6 @@ ul li{
 }
 ul li a{
   display: block;
-  color: rgb(49, 49, 49); 
 }
 ul li a:hover{
 background-color: rgb(169, 204, 29); 
@@ -129,6 +128,7 @@ background-color: rgb(169, 204, 29);
 ul li ul.dropdown{
   min-width: 175px; /* Set width of the dropdown */
   background-color: black; 
+  padding: 6px; 
   word-spacing: 0px; 
   display: none;
   position: absolute;
@@ -143,6 +143,9 @@ ul li ul.dropdown li{
 }
 /* // end of navbar drop down */
 
+
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
 /* // media queries nav, header, video */
 @media only screen and (max-width: 768px) {
 #video-bg {
@@ -176,17 +179,17 @@ margin-left: 23%;
   .trailblazers-line1 {
   font-size: 43px;
   margin-left: 20%;
-  margin-top: 19%; 
+  margin-top: 14%; 
   }
   
   .trailblazers-line2 {
   font-size: 43px; 
   margin-left: 25%;
-  margin-top: 24%;
+  margin-top: 19%;
     }
   }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 615px) {
   .trailblazers-line1 {
   font-size: 40px;
   margin-left: 13%;
