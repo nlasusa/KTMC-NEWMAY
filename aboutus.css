@@ -2,7 +2,7 @@
 /* //////// ****** /////////////////////////// */
 /* // about us section */
 
-.grayimg { background-image: url("assets/images/whoweare.png"); height: 100%;}
+.blackimg { background-image: url("assets/images/whoweare.png"); height: 100%;}
 
 .about-us {
   padding-top: 100px; 
@@ -10,6 +10,7 @@
   margin: 0 auto; 
   width: 1130px;
   max-width: 90%;
+  margin-top: -7px; 
 }
 .about-us::after {
   clear: both;
