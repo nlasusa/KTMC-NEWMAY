@@ -41,12 +41,11 @@
 .overlay{
   position: absolute;
   width: 100%;
-  height: 80%;
+  height: 99%;
   z-index: 2;
   background-color: rgba(17, 17, 17, 0.5); /*dim the background*/
   opacity: 0.95;  
 }
-
 #logo-main {
   margin-top: .4em; 
   margin-left: 1em; 
@@ -63,7 +62,6 @@
   width:100%;
   z-index:4;
 }
-
 .navbar-right{
   float:right;
   word-spacing: 20px; 
@@ -81,13 +79,11 @@
   font-family: 'Raleway';
   font-weight: thin; 
 }
-
 .navbar-right a:hover{
    background-color: rgb(169, 204, 29); 
    color: rgb(49, 49, 49); 
    /* background-color: rgb(39, 143, 212);  */
 }
-
 .header-wrapper {
   width: 100%;
   position: relative;
@@ -96,7 +92,6 @@
 #video-bg {
   width: 100%;
 }
-
 #header-title {
   position: absolute;
   width: 45vw;
@@ -177,16 +172,16 @@ margin-left: 23%;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .trailblazers-line1 {
   font-size: 43px;
-  margin-left: 16%;
+  margin-left: 20%;
   margin-top: 19%; 
   }
   
   .trailblazers-line2 {
   font-size: 43px; 
-  margin-left: 21%;
+  margin-left: 25%;
   margin-top: 24%;
     }
   }
@@ -226,7 +221,7 @@ margin-left: 23%;
     font-size: 120px; 
     margin-top: 26%;
     margin-left: 31%;
-}
+  }
 }
   @media only screen and (max-width: 1035px) {
     #logo-main {
@@ -275,6 +270,7 @@ margin-left: 23%;
     ul li{
       line-height: 9px;
   }
+}
   
   @media only screen and (max-width: 430px) {
     #logo-main {
@@ -295,3 +291,58 @@ margin-left: 23%;
       } 
   }
   /* // end of media queries nav, header, video */
+
+
+  i {
+    color: white;
+    z-index: 4; 
+    top: 80%; 
+    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    cursor: pointer; 
+  }
+  
+  @keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+  
