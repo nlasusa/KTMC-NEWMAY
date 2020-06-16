@@ -16,7 +16,7 @@
     position: absolute; 
     margin-top: -3px; 
     margin-left: 20px;
-    height: 230px; 
+    height: 200px; 
     width: 480px;
     padding:40px;
     border: 1px solid black; 
@@ -36,9 +36,9 @@
     margin-top: -10px;
     margin-left: -1px;
     margin-bottom: 50px; 
-    height: 240px; 
+    height: 210px; 
     width: 480px;
-    padding:40px;
+    padding:30px;
     border: 1px solid rgb(138, 171, 37); 
     background: rgb(138, 171, 37); 
     z-index: 2; 
@@ -46,7 +46,8 @@
 
 #box2-text {
 font-family: 'Raleway';
-font-size: 21px; 
+font-size: 20px; 
 justify-content: left;
 color: black; 
 }
+
