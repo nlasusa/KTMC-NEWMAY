@@ -8,15 +8,15 @@
     z-index: 2; 
     color: black;
     position: relative;
-    margin-bottom: 3px; 
+    margin-bottom: 10px; 
     letter-spacing: 3px; 
 }
 
 #box {
     position: absolute; 
-    margin-top: -14px; 
+    margin-top: -3px; 
     margin-left: 11px;
-    height: 260px; 
+    height: 230px; 
     width: 500px;
     padding:40px;
     border: 1px solid black; 
@@ -25,13 +25,19 @@
 }
 
 #box2 {
-    margin-top: -5px;
-    margin-left: 13px;
+    margin-top: -10px;
+    margin-left: -1px;
     margin-bottom: 50px; 
-    height: 280px; 
+    height: 240px; 
     width: 480px;
     padding:40px;
     border: 1px solid rgb(138, 171, 37); 
     background: rgb(138, 171, 37); 
     z-index: 2; 
+}
+
+#box2-text {
+font-family: 'Raleway';
+font-size: 21px; 
+justify-content: left;
 }
