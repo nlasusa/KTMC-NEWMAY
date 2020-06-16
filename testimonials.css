@@ -59,3 +59,25 @@ color: rgb(255, 255, 255);
 text-align: right; 
 font-weight: bold; 
 }
+
+@media only screen and (max-width: 768px) {
+    #ST {
+    font-size: 30px; 
+    }
+
+    #box {
+    height: 220px; 
+    width: 430px;
+    padding:40px;
+    }
+
+    #box2 {
+    height: 230px; 
+    width: 410px;
+    padding:30px;
+    }
+
+    #box2-text {
+    font-size: 17px; 
+    }
+}
