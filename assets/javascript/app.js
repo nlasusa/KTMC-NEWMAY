@@ -11,15 +11,6 @@ $(function(){
      var clientspeed = 0;
      var seeclients = setInterval(rotateClients, clientspeed);
      
-     $(document).on({
-       mouseenter: function(){
-         rotating = false; // turn off rotation when hovering
-       },
-       mouseleave: function(){
-         rotating = true;
-       }
-     }, '#clients');
-     
      function rotateClients() {
        if(rotating != false) {
          var $first = $('#clients-list li:first');

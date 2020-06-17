@@ -1,3 +1,4 @@
+/* // SecuritiesTracker section  */
 .grayblueimg { background-image: url("assets/images/b&w.jpg"); height: 650px;}
 
 /* .FullyCovered {
@@ -88,5 +89,6 @@ margin-top: -16px;
     }
     .grayblueimg { 
         height: 500px; 
+    }
 }
-}
+/* // end of SecuritiesTracker section */
