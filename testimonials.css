@@ -1,6 +1,5 @@
-.grayblueimg { background-image: url("assets/images/b&w.jpg"); height: 650px;}
-
-#ST {
+/* // testimonials section  */
+#testimonials {
     margin-top: 5%; 
     margin-left: 1%;
     font-size: 50px; 
@@ -147,3 +146,4 @@ font-weight: bold;
             margin-left: 250px;
         }
 }
+/* // end of testimonials section  */

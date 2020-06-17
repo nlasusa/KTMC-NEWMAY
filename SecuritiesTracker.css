@@ -1,0 +1,28 @@
+.grayblueimg { background-image: url("assets/images/b&w.jpg"); height: 650px;}
+
+.FullyCovered {
+font-family: 'Raleway';
+color: black;
+font-size: 92px; 
+padding-top: 100px; 
+line-height: 90px; 
+/* font-weight: bold;  */
+letter-spacing: 20px;
+margin-left: 95px; 
+
+}
+
+#line {
+    font-size: 180px;
+
+    float: left;
+    position: absolute; 
+    margin-top: 35px;
+    color: rgb(255, 157, 29); 
+}
+
+@media only screen and (max-width: 768px) {
+    .FullyCovered {
+    font-size: 40px;
+    }
+}
