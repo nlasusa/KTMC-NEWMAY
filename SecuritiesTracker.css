@@ -11,27 +11,36 @@ letter-spacing: 5px;
 } */
 
 .STlogo {
-    margin-top: 50px; 
-    margin-left: 50px; 
-    font-size: 55px;
+    margin-top: 140px; 
+    font-size: 70px;
     font-weight: bold; 
-    letter-spacing: -6px; 
+    letter-spacing: -7px; 
     position: absolute; 
 }
 
 #STtext {
-    margin-top: -55px; 
+    margin-top: -61px; 
     letter-spacing: -1px;
+    font-size: 60px; 
+}
+
+.STblurb {
+    color: black;
+    position: absolute; 
+    margin-top: 270px;
+    padding: 30px; 
+    border: 1px solid black; 
 }
 
 @media only screen and (max-width: 768px) {
     .STlogo {
-        font-size: 40px;
+        font-size: 45px;
         margin-left: 10px; 
         letter-spacing: -5px; 
     }
     #STtext {
         margin-top: -45px; 
+        font-size: 40px; 
     }
     .FullyCovered {
     font-size: 60px;
