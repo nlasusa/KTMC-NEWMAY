@@ -12,7 +12,7 @@ float: right;
 } */
 
 #STsquare {
-margin-top: -14px;
+margin-top: -16px;
 }
 
 .STlogo {
@@ -42,6 +42,24 @@ margin-top: -14px;
     align-content: justify;
 }
 
+#learnmore {
+    font-family: 'Raleway';
+    font-size: 17px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(15, 15, 15); 
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 7%;
+    margin-top: 420px;
+    float: left; 
+}
+
+#learnmore:hover {
+    color: rgb(169, 204, 29); 
+    background-color: rgb(49, 49, 49); 
+    cursor: pointer; 
+}
+
 @media only screen and (max-width: 768px) {
     .STlogo {
         font-size: 45px;
@@ -65,4 +83,10 @@ margin-top: -14px;
     #STsquare {
         margin-top: -30px;
     }
+    #learnmore {
+        margin-top: 320px;
+    }
+    .grayblueimg { 
+        height: 500px; 
+}
 }
