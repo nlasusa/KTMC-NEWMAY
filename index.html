@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="aboutus.css">
     <link rel="stylesheet" href="testimonials.css">
     <link rel="stylesheet" href="awards.css">
+    <link rel="stylesheet" href="news.css">
     <link rel="stylesheet" href="SecuritiesTracker.css">
     <link rel="stylesheet" href="socialbuttons.css">
+    <link rel="stylesheet" href="insights.css">
 
      <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -48,10 +51,10 @@
               <li><a href="#">ABOUT</a>
               <ul class="dropdown">
                 <li><a href="#">Overview</a></li>
-                <li><a href="#">What Our Clients are Saying</a></li>
+                <li><a href="#">Testimonials</a></li>
                 <li><a href="#">In the Community</a></li>
                 <li><a href="#">Landmark Cases</a></li>
-                <li><a href="#">Proven by Trial Experience</a></li>
+                <li><a href="#">Trial Experience</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Sustainability</a></li>
               </ul>
@@ -59,12 +62,13 @@
 
             <li><a href="#">PRACTICES</a>
               <ul class="dropdown">
-                <li><a href="#">U.S. Securities Fraud</a></li>
+                <li><a href="#">U.S. Securities</a></li>
                   <li><a href="#">Global Securities</a></li>
                   <li><a href="#">Mergers & Acquisitions</a></li>
-                  <li><a href="#">Shareholder Derivative & Corporate Governance</a></li>
-                  <li><a href="#">Whistleblow Representation</a></li>
-                  <li><a href="#">Consumer Fraud/Consumer Rights</a></li>
+                  <li><a href="#">Shareholder Derivative</a></li>
+                  <li><a href="#">Corporate Governance</a></li>
+                  <li><a href="#">Whistleblower Representation</a></li>
+                  <li><a href="#">Consumer Fraud & Rights</a></li>
                   <li><a href="#">Anti-Trust</a></li>
                   <li><a href="#">ERISA</a></li>
                 </ul>
@@ -72,9 +76,9 @@
 
             <li><a href="#">CASES</a>
               <ul class="dropdown">
-                <li><a href="#">Notable Cases</a></li>
+                <li><a href="#">Notable</a></li>
                   <li><a href="#">Settled</a></li>
-                  <li><a href="#">Ongoing Securities Cases</a></li>
+                  <li><a href="#">Ongoing</a></li>
                 </ul>
             </li>
 
@@ -89,9 +93,10 @@
             <li><a href="#">CONTACT</a>
               <ul class="dropdown">
                   <li><a href="#">Offices</a></li>
-                  <li><a href="#">Career Opportunities</a></li>
-                  <li><a href="#">General Inquiries <br>& Report Fraud</a></li>
-                  <li><a href="#">Subscribe to Mail</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">General Inquiry</a></li>
+                  <li><a href="#">Report Fraud</a></li>
+                  <li><a href="#">Subscribe</a></li>
                 </ul>
             </li>
             </ul>
@@ -166,6 +171,113 @@
 <!-- end of about us section -->
 
 
+<!-- // article news section  -->
+<div class="bg-image blackimg3">
+<div class="container">
+  <div class="news" data-aos="fade-left">
+  <br> LATEST HEADLINES
+  </div>
+</div>
+<!-- // Article grid  -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var articles = [
+    {
+      onClickLink: 'https://ktmc.com/news/kessler-topaz-announces-action-in-japan-against-nissan-motor-corporation',
+      imgageSource: 'assets/images/benchmarkl.jpg',
+      title: 'KTMC Announces Action in Japan Against Nissan Corporation',
+    },
+    {
+      onClickLink: 'https://ktmc.com/news/kessler-topaz-meltzer-check-llp-once-again-included-in-the-benchmark-litigation-guide-to-americas-leading-litigation-firms-and-attorneys-for-2020',
+      imgageSource: 'assets/images/benchmarkl.jpg',
+      title: 'KTMC Once Again Included in the Benchmark Litigation Guide to Americas Leading Litigation Firms and Attorneys for 2020',
+    },
+    {
+      onClickLink: 'https://www.devex.com/news/communicating-noncommunicable-diseases-93049',
+      imgageSource: 'assets/images/benchmarkl.jpg',
+      title: 'Delaware Chancery Court Denies MTD Litigation Challenging Elon Musks $55.8 Billion Compenseation Package',
+    },
+    {
+      onClickLink: 'https://www.devex.com/news/communicating-noncommunicable-diseases-93049',
+      imgageSource: 'assets/images/benchmarkl.jpg',
+      title: 'A Tale of Two Firsts: Shareholder Litigation Judgments in Australia and England'
+    }
+  ]
+
+  var rootElement = document.getElementById("imageGalleryWithTitle");
+
+  for (let i=0; i < articles.length; i++) {
+    //Create the container
+    var itemContainer = document.createElement("a");
+    itemContainer.classList.add("article-container");
+    var href = document.createAttribute("href");
+    href.value = articles[i].onClickLink;
+    itemContainer.setAttributeNode(href);
+    var target = document.createAttribute("target");
+    target.value = '_blank';
+    itemContainer.setAttributeNode(target);
+
+    //Create Image
+    var image = document.createElement("img");
+    image.classList.add("article-image");
+    var src = document.createAttribute("src");
+    src.value = articles[i].imgageSource;
+    image.setAttributeNode(src);
+    var alt = document.createAttribute("alt");
+    alt.value = articles[i].title;
+    image.setAttributeNode(alt);
+
+    //Create title
+    var h3 = document.createElement("h3");
+    h3.classList.add("article-title");
+    var h3Text = document.createTextNode(articles[i].title);
+    h3.appendChild(h3Text);
+
+    //Atach image and title to container
+    itemContainer.appendChild(image);
+    itemContainer.appendChild(h3);
+
+    //Attach element to root div
+    rootElement.appendChild(itemContainer);
+  }
+});
+// </script>
+
+ <div id='imageGalleryWithTitle' class="news-container"></div>
+</div>
+<!-- // End of Article grid -->
+<!-- // end of article news section  -->
+
+
+<!--  KTMC Insights Section -->
+<div class="bg-image blackimg2">
+<div class="container">
+
+  <div class="insights-section" data-aos="fade-down">
+   KTMC INSIGHTS
+ </div>
+
+  <div class="insights-blurb" data-aos="fade-down">
+   Stay Informed - Firm Brochures, Primer, Monthly Newsletter and the Quarterly Bulletin 
+  </div>
+
+  <div id="wrapper" data-aos="fade-in">
+      <div id="image">
+        <div class="image i1">April Monthly Insights<img src="assets/images/April2020Insights.png" id="imgi1"></div>
+        <div class="image i2">Fall 2019 Quarterly Bulletin<img src="assets/images/Fall2019.png" id="imgi2"></div>
+        <div class="image i3">KTMC Services Brochure<img src="assets/images/FirmBrochure.png" id="imgi3"></div>
+        <div class="image i4">KTMC <i>SECURITIESTRACKER</i><img src="assets/images/STpacket.png" id="imgi4"></div>
+        <div class="image i5">Primer on Shareholder Litigation<img src="assets/images/Primer.png" id="imgi5"></div>
+        <div class="image i6">BENCHMARK 2020 TOP PLAINTIFF FIRM<img src="assets/images/Benchmark2020.jpg" id="imgi6"></div>
+        <div class="image i7">April Monthly Insights<img src="assets/images/April2020Insights.png" id="imgi7"></div>
+        <div class="image i8">April Monthly Insights<img src="assets/images/April2020Insights.png" id="imgi8"></div>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- // End of KTMC Insights Section  -->
+
 <!-- SecuritiesTracker section -->
 <div class="bg-image grayblueimg">
   <div class="container">
@@ -179,7 +291,7 @@
             <img src="assets/images/STlogo2.png" id="STsquare">
     
             <div id="STtext">
-            <span style='color: rgb(5, 5, 5);'><i>SECURITIESTRACKER</i></span>
+            <span style='color: rgb(5, 5, 5);'><i>S<data id="smaller">ECURITIES</data>T<data id="smaller">RACKER</data></i></span>
             </div>
           </p>
       </div><br>
@@ -188,14 +300,11 @@
         With our robust, integrated, and comprehensive monitoring, claims filing and legal services, institutional investors have come to rely on Kessler Topaz’s one-stop program to fulfill all of their fiduciary obligations related to shareholder litigation around the globe
       </div>
 
-      <button type="button" id="learnmore" data-aos="fade-right">LEARN MORE</button>
-        
-    <!-- <div class="FullyCovered" data-aos="fade-left">FULLY<br>COVERED</div> -->
+      <button type="button" id="learnmore">LEARN MORE</button> 
 
   </div>
-</div>
+</div> 
 <!-- end of SecuritiesTracker section -->
-
 
 <!-- testimonials section -->
 <div class="container">
@@ -242,11 +351,9 @@
         <li><img src="assets/images/PHL.jpg" alt="Plaintiffs Hot List logo"></li>
       </ul>
     </div>
-    <!-- @end .clients-wrap -->
   </div>
-</div>
-  <!-- @end #clients -->
-<!-- // end of awards & achievements section    -->
+</div> 
+ <!-- end of awards & achievements section    --> -->
 
 
 

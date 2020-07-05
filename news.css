@@ -1,0 +1,91 @@
+.blackimg3 { background-image: url("assets/images/whoweare3.png"); height: 100%;}
+
+/* // news header */
+.news {
+  font-family: 'Raleway'; 
+  font-weight: thin; 
+  font-size: 40px; 
+  margin-top: -20px; 
+  margin-bottom: 20px; 
+  text-align: center;
+  color: white;
+}
+/* // end of news header */
+
+/* // article grid  */
+.news-container {
+  display: flex;
+  /* background-color: rgb(243, 243, 243); */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  font-size: 8px;
+}
+
+.article-container {
+  text-decoration: none;
+  background-color: rgb(3, 3, 3); 
+  color: rgb(138, 171, 37); 
+  display: flex;
+  flex-direction: column;
+  width: 19vw; /* Increase this value if you want more articles per row, decrease if you want less*/
+  /* box-shadow: 1px 1px 10px 1px rgb(122, 182, 66);  */
+  margin: 14px;
+  transition: 0.3s;
+  height: 330px; 
+  margin-top: -5px; 
+}
+
+#news-read {
+  text-align: left;
+  /* margin-top: 25px;  */
+  font-size: 16px; 
+  font-weight: bold; 
+  font-family: 'Raleway'; 
+  color: rgb(2, 60, 94);
+}
+
+#news-read:hover {
+  color: rgb(138, 171, 37); 
+  cursor: pointer; 
+}
+
+@media only screen and (max-width: 430px) {
+
+  .article-container {
+    width: 230px;  
+    height: 300px; 
+  }
+
+  #news-read {
+    font-size: 16px; 
+    font-family: 'Raleway';
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .article-container {
+    width: 60vw;
+  }
+}
+
+.article-container:hover {
+  transform: scale(1.02);
+  color: rgb(138, 171, 37); 
+  text-decoration: none; 
+  /* box-shadow: 1px 1px 8px 1px rgba(231, 231, 231, 0.9); */
+
+}
+.article-image {
+  width: 100%;
+  height: 54%;
+  border-radius: 0; 
+}
+
+.article-title {
+  padding: 10px;
+  margin-top: 5px; 
+  font-size:15px;
+  font-family: 'Raleway';
+}
+/* // end of article grid */
