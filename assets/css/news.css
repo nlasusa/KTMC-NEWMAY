@@ -52,24 +52,12 @@
 
 .article-date {
   font-size: 16px;
-  color: white;
-  background-color: rgb(19, 109, 160); 
+  color: rgb(142, 177, 37); 
+  font-weight: bold; 
+  background-color: rgb(34, 34, 34); 
+  /* background-color: rgb(19, 109, 160);  */
   padding: 10px; 
   font-family: 'Raleway'; 
-}
-
-#news-read {
-  text-align: left;
-  /* margin-top: 25px;  */
-  font-size: 16px; 
-  font-weight: bold; 
-  font-family: 'Raleway'; 
-  color: rgb(2, 60, 94);
-}
-
-#news-read:hover {
-  color: rgb(138, 171, 37); 
-  cursor: pointer; 
 }
 
 @media only screen and (max-width: 430px) {
@@ -93,7 +81,7 @@
 
 .article-container:hover {
   transform: scale(1.02);
-  color: rgb(138, 171, 37); 
+  color: rgb(27, 132, 192); 
   text-decoration: none; 
   /* box-shadow: 1px 1px 8px 1px rgba(231, 231, 231, 0.9); */
 
