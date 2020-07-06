@@ -1,10 +1,9 @@
-.blackimg2 { background-image: url("assets/images/whoweare2.png"); height: 670px;}
 
 /* // KTMC insights section  */
 .insights-section {
   color: white;
   font-size: 40px; 
-  font-weight: thin; 
+  font-weight: 300;
   font-family: 'Raleway';
   text-align: center; 
   margin-top: -5px;

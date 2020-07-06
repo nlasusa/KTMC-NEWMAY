@@ -1,4 +1,5 @@
 /* // SecuritiesTracker section  */
+.blackimg2 { background-image: url("assets/images/whoweare2.png"); height: 560px;}
 .grayblueimg { background-image: url("assets/images/b&w.jpg"); height: 650px;}
 
 
@@ -7,7 +8,7 @@ margin-top: -16px;
 }
 
 .STlogo {
-    margin-top: 100px; 
+    margin-top: 65px; 
     font-size: 70px;
     font-weight: bold; 
     letter-spacing: -7px; 
@@ -25,9 +26,9 @@ margin-top: -16px;
 }
 
 .STblurb {
-    color: black;
+    color: white;
     position: absolute; 
-    margin-top: 210px;
+    margin-top: 170px;
     padding: 30px; 
     padding-left: 0px; 
     text-align: left; 
@@ -41,11 +42,11 @@ margin-top: -16px;
     font-family: 'Raleway';
     font-size: 17px;
     padding: 15px;
-    color: white;
-    background-color: rgb(15, 15, 15); 
+    color: rgb(169, 204, 29); 
+    background-color: rgb(49, 49, 49); 
     border: 1px solid rgb(15, 15, 15);
     border-radius: 7%;
-    margin-top: 420px;
+    margin-top: 385px;
     float: left; 
 }
 
@@ -74,15 +75,16 @@ margin-top: -16px;
     }
 
     .STblurb {
-        margin-top: 170px;
+        margin-top: 120px;
         font-size: 15px;
         width: 500px; 
     }
     #STsquare {
-        margin-top: -30px;
+        margin-top: -25px;
+        width: 70px; 
     }
     #learnmore {
-        margin-top: 320px;
+        margin-top: 260px;
     }
     .grayblueimg { 
         height: 500px; 
