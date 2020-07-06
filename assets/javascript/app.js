@@ -49,3 +49,4 @@ $("#imgi7").on('click', function(){
 $("#imgi8").on('click', function(){
   window.location = "http://ktmc.com/webfiles/AprilMonthlyInsights2020%20(4).pdf";    
 });
+// end of monthly insights section

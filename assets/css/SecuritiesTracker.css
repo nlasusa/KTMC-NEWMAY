@@ -1,5 +1,5 @@
 /* // SecuritiesTracker section  */
-.blackimg2 { background-image: url("assets/images/whoweare2.png"); height: 550px;}
+.blackimg2 { background-image: url("../images/whoweare2.png"); height: 550px;}
 
 #STsquare {
 margin-top: -16px;
@@ -51,7 +51,7 @@ margin-top: -16px;
 
 #learnmore:hover {
     color: rgb(169, 204, 29); 
-    background-color: rgb(49, 49, 49); 
+    background-color: rgb(61, 61, 61); 
     cursor: pointer; 
 }
 
@@ -59,6 +59,8 @@ margin-top: -16px;
     margin-top: 30px;  
 }
 
+
+/* // securities tracker media queries  */
 @media only screen and (max-width: 768px) {
     .STlogo {
         font-size: 45px;
@@ -103,6 +105,4 @@ margin-top: -16px;
         display: none; 
     }
 }
-
-
 /* // end of SecuritiesTracker section */
