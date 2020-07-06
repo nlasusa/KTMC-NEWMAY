@@ -1,3 +1,96 @@
 /* // social buttons section */
-
+#social {
+    text-align: center;
+    padding-bottom: 40px; 
+    padding-top: 30px; 
+    background-color: rgb(34, 34, 34); 
+  }
+  
+  .smGlobalBtn { /* global button class */
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border:2px solid #ddd; /* add border to the buttons */
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      -moz-border-radius:27px;
+      -webkit-border-radius:27px;
+  }
+  
+  /* facebook button class*/
+  .facebookBtn{
+      background: rgb(20, 20, 20);
+  }
+  
+  .facebookBtn:before{ /* use :before to add the relevant icons */
+      font-family: "FontAwesome";
+      content: "\f09a"; /* add facebook icon */
+  }
+  
+  .facebookBtn:hover{
+      color: rgb(20, 20, 20);
+      background: white; 
+      border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+  }
+  
+  /* twitter button class*/
+  .twitterBtn{
+    background: rgb(20, 20, 20);
+  }
+  
+  .twitterBtn:before{
+        font-family: "FontAwesome";
+        content: "\f099"; /* add twitter icon */
+        
+  }
+  
+  .twitterBtn:hover{
+    color: rgb(20, 20, 20);
+    background: white; 
+    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+  }
+  
+  /* google plus button class*/
+  .googleplusBtn{
+      background: rgb(20, 20, 20);
+  }
+  
+  .googleplusBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0d5"; /* add googleplus icon */
+  }
+  
+  .googleplusBtn:hover{
+    color: rgb(20, 20, 20);
+    background: white; 
+    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+  }
+  
+  /* linkedin button class*/
+  .linkedinBtn{
+      background: rgb(20, 20, 20);
+  }
+  
+  .linkedinBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0e1"; /* add linkedin icon */
+  }
+  
+  .linkedinBtn:hover{
+    color: rgb(20, 20, 20);
+    background: white; 
+    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+  }
+  
+  
+  
+  
 /* // end of social buttons section  */
