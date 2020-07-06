@@ -94,7 +94,7 @@
 }
 .about-us aside ul li h3 span {
   display: block;
-  padding: 3px; 
+  /* padding: 3px;  */
   color: #fff;
 }
 .about-us aside ul li h3 span:first-child {

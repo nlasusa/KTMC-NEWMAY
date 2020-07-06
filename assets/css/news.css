@@ -52,10 +52,9 @@
 
 .article-date {
   font-size: 18px;
-  color: rgb(142, 177, 37); 
-  font-weight: bold; 
-  background-color: rgb(49, 49, 49); 
-  /* background-color: rgb(19, 109, 160);  */
+  color: white;
+  /* background-color: rgb(49, 49, 49);  */
+  background-color: rgb(19, 109, 160); 
   padding: 10px; 
   font-family: 'Raleway'; 
 }
@@ -85,7 +84,7 @@
 
 .article-container:hover {
   transform: scale(1.02);
-  color: rgb(27, 132, 192); 
+  color: rgb(138, 171, 37); 
   text-decoration: none; 
   /* box-shadow: 1px 1px 8px 1px rgba(231, 231, 231, 0.9); */
 
