@@ -26,7 +26,8 @@
   color: white; 
   font-family: 'Raleway'; 
   text-align: center; 
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #news-read-more:hover {
@@ -37,7 +38,8 @@
 .article-container {
   text-decoration: none;
   background-color: rgb(0, 0, 0); 
-  color: rgb(138, 171, 37); 
+  color: white; 
+  /* color: rgb(138, 171, 37);  */
   display: flex;
   flex-direction: column;
   width: 19vw; /* Increase this value if you want more articles per row, decrease if you want less*/
