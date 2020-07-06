@@ -76,8 +76,12 @@
 @media only screen and (max-width: 850px) {
   .article-container {
     width: 60vw;
+    margin-top: 7px; 
   }
 }
+  .news {
+    font-size: 45px; 
+  }
 
 .article-container:hover {
   transform: scale(1.02);
