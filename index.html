@@ -173,33 +173,37 @@
 
 <!-- // article news section  -->
 <div class="bg-image blackimg3">
-<div class="container">
+
   <div class="news" data-aos="fade-left">
-  <br> LATEST HEADLINES
+  <br> LATEST HEADLINES 
   </div>
-</div>
+
 <!-- // Article grid  -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var articles = [
     {
       onClickLink: 'https://ktmc.com/news/kessler-topaz-announces-action-in-japan-against-nissan-motor-corporation',
-      imgageSource: 'assets/images/benchmarkl.jpg',
+      imgageSource: 'assets/images/nissan.jpg',
+      date: 'July 1, 2020',
       title: 'KTMC Announces Action in Japan Against Nissan Corporation',
     },
     {
       onClickLink: 'https://ktmc.com/news/kessler-topaz-meltzer-check-llp-once-again-included-in-the-benchmark-litigation-guide-to-americas-leading-litigation-firms-and-attorneys-for-2020',
       imgageSource: 'assets/images/benchmarkl.jpg',
+      date: 'June 26, 2020',
       title: 'KTMC Once Again Included in the Benchmark Litigation Guide to Americas Leading Litigation Firms and Attorneys for 2020',
     },
     {
       onClickLink: 'https://www.devex.com/news/communicating-noncommunicable-diseases-93049',
-      imgageSource: 'assets/images/benchmarkl.jpg',
+      imgageSource: 'assets/images/tesla.jpg',
+      date: 'June 13, 2020',
       title: 'Delaware Chancery Court Denies MTD Litigation Challenging Elon Musks $55.8 Billion Compenseation Package',
     },
     {
       onClickLink: 'https://www.devex.com/news/communicating-noncommunicable-diseases-93049',
-      imgageSource: 'assets/images/benchmarkl.jpg',
+      imgageSource: 'assets/images/australiaengland.jpg',
+      date: 'June 3, 2020',
       title: 'A Tale of Two Firsts: Shareholder Litigation Judgments in Australia and England'
     }
   ]
@@ -233,8 +237,15 @@ document.addEventListener("DOMContentLoaded", function() {
     var h3Text = document.createTextNode(articles[i].title);
     h3.appendChild(h3Text);
 
+    //create date
+    var h4 = document.createElement("h4");
+    h4.classList.add("article-date"); 
+    var h4Text = document.createTextNode(articles[i].date); 
+    h4.appendChild(h4Text); 
+
     //Atach image and title to container
     itemContainer.appendChild(image);
+    itemContainer.appendChild(h4); 
     itemContainer.appendChild(h3);
 
     //Attach element to root div
@@ -243,14 +254,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 // </script>
 
- <div id='imageGalleryWithTitle' class="news-container"></div>
+ <div id='imageGalleryWithTitle' class="news-container" data-aos="fade-down"></div>
+  <div id="news-read-more">View More</div><br><br><br>
 </div>
 <!-- // End of Article grid -->
 <!-- // end of article news section  -->
 
 
 <!--  KTMC Insights Section -->
-<div class="bg-image blackimg2">
+<!-- <div class="bg-image blackimg2">
 <div class="container">
 
   <div class="insights-section" data-aos="fade-down">
@@ -275,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </div>
 </div>
 </div>
-</div>
+</div> -->
 <!-- // End of KTMC Insights Section  -->
 
 <!-- SecuritiesTracker section -->
