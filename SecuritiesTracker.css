@@ -1,7 +1,5 @@
 /* // SecuritiesTracker section  */
-.blackimg2 { background-image: url("assets/images/whoweare2.png"); height: 560px;}
-.grayblueimg { background-image: url("assets/images/b&w.jpg"); height: 650px;}
-
+.blackimg2 { background-image: url("assets/images/whoweare2.png"); height: 550px;}
 
 #STsquare {
 margin-top: -16px;
@@ -34,6 +32,7 @@ margin-top: -16px;
     text-align: left; 
     font-family: 'Raleway';
     font-size: 20px; 
+    font-weight: 300px; 
     width: 600px; 
     align-content: justify;
 }
@@ -54,6 +53,10 @@ margin-top: -16px;
     color: rgb(169, 204, 29); 
     background-color: rgb(49, 49, 49); 
     cursor: pointer; 
+}
+
+#worldmap {
+    margin-top: 30px; 
 }
 
 @media only screen and (max-width: 768px) {
@@ -89,6 +92,17 @@ margin-top: -16px;
     .grayblueimg { 
         height: 500px; 
     }
+    #worldmap {
+        margin-top: 0px;
+    }
 }
+
+
+@media only screen and (max-width: 1000px) {
+    #worldmap {
+        display: none; 
+    }
+}
+
 
 /* // end of SecuritiesTracker section */
