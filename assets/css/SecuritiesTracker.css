@@ -13,6 +13,10 @@ margin-top: -16px;
     position: absolute; 
 }
 
+.STlogo span {
+    margin-left: -3px; 
+}
+
 #STtext {
     margin-top: -61px; 
     letter-spacing: -1px;
