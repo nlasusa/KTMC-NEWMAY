@@ -86,8 +86,16 @@ font-weight: bold;
     font-size: 19px; 
     padding: 32px; 
     color: white;
-    background-color: rgb(29, 29, 29); 
+    background-color: rgb(22, 22, 22); 
 }
+
+#testimonials-read-more {
+    color: black;
+    font-family: 'Raleway'; 
+    text-align: right;
+    margin-top: 290px; 
+    position: absolute; 
+  }
 
 @media only screen and (max-width: 768px) {
     #ST {
