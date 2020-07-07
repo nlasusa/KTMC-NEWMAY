@@ -63,7 +63,18 @@ margin-top: -16px;
     margin-top: 30px;  
 }
 
-
+#claimsNumber {
+    font-size: 20px;
+    margin-top: 25px; 
+    font-family: 'Raleway';
+    color: rgb(169, 204, 29); 
+    border: 2px solid rgb(28, 144, 211);
+    background-color: rgb(43, 42, 42); 
+    padding: 25px; 
+    padding-left: 40px;
+    padding-right: 40px; 
+    float: right;
+}
 /* // securities tracker media queries  */
 @media only screen and (max-width: 768px) {
     .STlogo {
