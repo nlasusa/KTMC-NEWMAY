@@ -5,10 +5,11 @@
   font-family: 'Raleway'; 
   font-size: 50px; 
   font-weight: 300;
-  margin-bottom: 30px; 
-  padding-top: 30px; 
+  margin-bottom: 40px; 
+  padding-top: 40px; 
   text-align: center;
-  color: white;
+  letter-spacing: .3rem;
+  color: white; 
 }
 /* // end of news header */
 
@@ -79,7 +80,7 @@
   }
 }
   .news {
-    font-size: 45px; 
+    font-size: 40px; 
   }
 
 .article-container:hover {

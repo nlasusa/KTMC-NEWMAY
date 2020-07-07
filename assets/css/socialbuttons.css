@@ -90,7 +90,11 @@
     border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
   }
   
-  
+  #allRights {
+    font-size: 10px;
+    color: white; 
+    padding-top: 15px; 
+  }
   
   
 /* // end of social buttons section  */
