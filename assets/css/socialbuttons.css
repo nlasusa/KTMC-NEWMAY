@@ -17,12 +17,19 @@
       text-decoration: none;
       text-align: center;
       color: #fff;
+      background-color: rgb(14, 14, 14); 
       font-size: 25px;
       font-weight: normal;
       line-height: 2em;
       border-radius: 27px;
       -moz-border-radius:27px;
       -webkit-border-radius:27px;
+  }
+
+  .smGlobalBtn:hover {
+    color: rgb(20, 20, 20);
+    background: white; 
+    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
   }
   
   /* facebook button class*/

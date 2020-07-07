@@ -50,3 +50,18 @@ $("#imgi8").on('click', function(){
   window.location = "http://ktmc.com/webfiles/AprilMonthlyInsights2020%20(4).pdf";    
 });
 // end of monthly insights section
+
+// social media buttons 
+// ON CLICK EVENTS
+$(".facebookBtn").on('click', function(){
+  window.location = "https://www.facebook.com/KTMClaw/";    
+});
+
+$(".twitterBtn").on('click', function(){
+  window.location = "https://twitter.com/ktmclaw?lang=en";    
+});
+
+$(".linkedinBtn").on('click', function(){
+  window.location = "https://www.linkedin.com/company/kessler-topaz-meltzer-&-check-llp";    
+});
+// end of social media buttons
