@@ -155,4 +155,10 @@ font-weight: bold;
             margin-left: 250px;
         }
 }
+
+@media only screen and (max-width: 430px) {
+  .box, .box1, .box2, .box3, #testimonials {
+      display: none; 
+  }
+}
 /* // end of testimonials section  */
