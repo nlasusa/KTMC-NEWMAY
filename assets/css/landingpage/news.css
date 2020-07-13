@@ -66,6 +66,7 @@
   .article-container {
     width: 230px;  
     height: 300px; 
+    font-size: 13px; 
   }
 
   #news-read {
