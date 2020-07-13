@@ -65,3 +65,5 @@ $(".linkedinBtn").on('click', function(){
   window.location = "https://www.linkedin.com/company/kessler-topaz-meltzer-&-check-llp";    
 });
 // end of social media buttons
+
+

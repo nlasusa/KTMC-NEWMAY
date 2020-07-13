@@ -1,4 +1,4 @@
-.blackimg3 { background-image: url("../images/whoweare3.png"); height: 100%;}
+.blackimg3 { background-image: url("../../images/whoweare3.png"); height: 100%;}
 
 /* // news header */
 .news {
@@ -45,9 +45,10 @@
   flex-direction: column;
   width: 19vw; /* Increase this value if you want more articles per row, decrease if you want less*/
   /* box-shadow: 1px 1px 10px 1px rgb(122, 182, 66);  */
+  max-width: 40vw; 
   margin: 14px;
   transition: 0.3s;
-  height: 330px; 
+  height: 380px; 
   margin-top: -5px; 
 }
 
@@ -80,7 +81,7 @@
   }
 }
   .news {
-    font-size: 40px; 
+    font-size: 38px; 
   }
 
 .article-container:hover {
@@ -99,7 +100,11 @@
 .article-title {
   padding: 10px;
   margin-top: 5px; 
-  font-size:16px;
+  font-size:15px;
   font-family: 'Raleway';
 }
 /* // end of article grid */
+
+
+
+
